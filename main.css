@@ -1,0 +1,26 @@
+.image-container .image-item {
+    padding-top: 56%;
+    background-position: center center;
+    background-size: contain;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container .image-item:hover {
+    transform: scale(1.2);
+}
+
+.image-container {
+    font-size: 0;
+    margin-top: 20px;
+}
+
+.image-container > div {
+    /* width: 100%; */
+    font-size: 14px;
+    margin-bottom: 20px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    word-wrap: break-word;
+}
